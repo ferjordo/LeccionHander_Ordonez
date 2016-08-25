@@ -37,7 +37,7 @@ public class Juego extends AppCompatActivity {
             public void run() {
                 for (int i = 0 ; i <20 ; i++){
                     try {
-                        Thread.sleep(100);
+                        Thread.sleep(1000);
                         handler.post(new Runnable() {
                             @Override
                             public void run() {
